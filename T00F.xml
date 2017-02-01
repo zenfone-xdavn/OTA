@@ -2,15 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <T00F>
-            <Filename>ResurrectionRemix-M-v5.6.9-20160523-T00F.zip</Filename>
+            <Filename>ResurrectionRemix-N-v5.8.1-20170201-RC4-T00F.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download ResurrectionRemix builds">https://basketbuild.com/devs/resurrectionremix/T00F</RomUrl>
+                description="Download ResurrectionRemix builds">https://basketbuild.com/devs/tank0412/RR_N/T00F</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
             <SlimGappsUrl
             	id="gapps"
             	title="Gapps"
