@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-    <Nightly>
-        <T00F>
-            <Filename>ResurrectionRemix-N-v5.8.1-20170201-RC4-T00F.zip</Filename>
+    <Stable>
+	 <falcon>
+            <Filename>ResurrectionRemix-N-v5.8.1-20170204-T00F.zip</Filename>
+            <BuildUrl
+            	id="build"
+            	title="LatestBuild"
+            	description="Download Latest Build">https://basketbuild.com/uploads/devs/tank0412/RR_N/T00F/ResurrectionRemix-N-v5.8.1-20170204-T00F.zip</BuildUrl>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -10,11 +14,15 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
             <SlimGappsUrl
-            	id="gapps"
-            	title="Gapps"
-            	description="Download latest Open GApps">http://opengapps.org/</SlimGappsUrl>
-	</T00F>
-    </Nightly>
+            	id="slim_gapps"
+            	title="Slim GApps"
+            	description="Download Slim latest GApps">https://www.androidfilehost.com/?w=files&amp;flid=41043</SlimGappsUrl>
+             <BanksGappsUrl
+            	id="banks_gapps"
+            	title="BaNkS Dynamic GApps"
+            	description="Download BaNkS latest GApps">http://download.dirtyunicorns.com/files/gapps/Banks/banks_dynamic_gapps-6.x.x-20160729.zip</BanksGappsUrl>
+	</falcon>
+    </Stable>
 </SlimOTA>
